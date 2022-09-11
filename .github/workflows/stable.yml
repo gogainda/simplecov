@@ -8,7 +8,7 @@ jobs:
 
     strategy:
       matrix:
-        ruby: ['3.0', truffleruby-head]
+        ruby: ['3.0', truffleruby-head ]
 
     env:
       BUNDLE_WITHOUT: "benchmark"
